@@ -1,0 +1,25 @@
+body {
+    background-image: url('../img/micuenta-bg.png');
+    background-size: cover;
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh;
+}
+
+.box-area {
+    width: 800px; /* tamaño de ancho*/
+}
+
+.right-box {
+    padding: 20px 15px 20px 20px; /* espaciado dentro del div*/
+}
+
+::placeholder {
+    font-size: 16px; /* tamaño de fuente*/
+}
+.rounded-4 {
+    border-radius: 20px; /* radio del borde*/
+}
+.rounded-5 {
+    border-radius: 30px; /* radio del borde*/
+}
