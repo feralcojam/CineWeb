@@ -1,0 +1,64 @@
+html, body {
+    height: 100%; /* Asegura que el cuerpo ocupe toda la altura */
+    margin: 0; /* Elimina los márgenes */
+    
+}
+
+.carousel-item {
+    height: 100%; /* Altura del carrusel al 100% de la vista */
+    position: relative; /* Necesario para el posicionamiento absoluto de la caption */
+}
+
+.carousel-item img {
+    width: 100%; /* Ocupa todo el ancho */
+    height: 100%; /* Ocupa todo el alto */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
+    position: absolute; /* Asegura que la imagen esté en el fondo */
+    top: 0; /* Alinea la imagen en la parte superior del contenedor */
+    left: 0; /* Alinea la imagen en la parte izquierda del contenedor */
+}
+
+.carousel-caption {
+    position: absolute; /* Posiciona el contenido sobre la imagen */
+    bottom: 20px; /* Coloca la caption a 20px del fondo */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Ajusta el centro */
+    background: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente para mejor visibilidad */
+    padding: 20px; /* Espaciado */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.button-container {
+    margin-top: 10px; /* Espacio entre la descripción y los botones */
+}
+.btn {
+    border: 2px solid #ffffff; /* Borde blanco */
+    background: transparent; /* Fondo transparente */
+    color: #ffffff; /* Texto blanco */
+    transition: background-color 0.3s, color 0.3s; /* Transiciones suaves */
+}
+.btn:hover {
+    background-color: #ffffff; /* Fondo blanco en hover */
+    color: #000; /* Texto negro en hover */
+}
+.btn-comprar {
+    background-color: #ff5722; /* Color personalizado */
+    color: white; /* Color del texto */
+}
+
+.btn-comprar:hover {
+    background-color: #e64a19; /* Color al pasar el mouse */
+}
+.card-text {
+    height: 200px; /* Ajusta este valor según el tamaño deseado */
+    overflow-y: auto;
+}
+.btn-primary {
+    background-color: #ff5722; /* Color personalizado */
+    color: white; /* Color del texto */
+}
+
+.btn-primary:hover {
+    background-color: #e64a19; /* Color al pasar el mouse */
+}
+

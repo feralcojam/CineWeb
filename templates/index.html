@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" /> <!-- Cierre correcto de la etiqueta -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <!-- Icono Menú -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cuenta.html">Mi Cuenta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cartelera.html">Cartelera</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Somos.html">Quienes Somos</a>
+                </li>
+            
+            </ul>
+        </div>
+
+        <!-- Logo del Cine -->
+        <a class="navbar-brand mx-auto" href="#">
+            <img src="ruta_al_logo.png" alt="Logo del Cine" width="120">
+        </a>
+        
+        <a class="btn btn-outline-light" href="combos.html" role="button">
+            <i class="fas fa-concierge-bell"></i> Combos
+        </a> 
+    </div>
+</nav>
+
+<!-- Carrusel de Películas -->
+<div id="peliculasCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner" style="height: 400px;">
+        <div class="carousel-item active">
+            <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/g4meAXLJe32FXkUwvGgTv4EU8ZR.jpg" class="img-fluid" alt="No hables con extraños" style="height: 400px;"> <!-- Sin espacio entre 400 y px -->
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3">
+                <h5>No hables con extraños</h5>
+                <p>Duración: 115 min</p>
+                <div class="button-container">
+                    <a href="https://youtu.be/MMd0xkGVPXw?si=uRan6QRHVWYcoJsv" class="btn btn-outline-light" target="_blank">Ver Trailer</a>
+                    <a href="#" class="btn btn-outline-light">Saber Más</a>
+                    <a href="#" class="btn btn-outline-light">Comprar Ticket</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2LanWSlqSOtyvQiIaoYz448oBSl.jpg" class="img-fluid" alt="Beetlejuice 2" style="height: 400px;">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3">
+                <h5>Beetlejuice 2</h5>
+                <p>Duración: 100 min</p>
+                <div class="button-container">
+                    <a href="https://youtu.be/ZFrfi7MMnb4?si=IOjJ-iZ7WN5E2obu" class="btn btn-primary">Ver Trailer</a>
+                    <a href="#" class="btn btn-info">Saber Más</a>
+                    <a href="#" class="btn btn-success">Comprar Ticket</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7M8gZDAQsJP3BjibSt1kZ1tBvXl.jpg" class="img-fluid" alt="Tipos de Gentileza">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3">
+                <h5>Tipos de Gentileza</h5>
+                <p>Duración: 110 min</p>
+                <div class="button-container">
+                    <a href="https://youtu.be/PvSXEkmWLjM?si=NLQ5KjqcHdmbZYWA" class="btn btn-primary">Ver Trailer</a>
+                    <a href="#" class="btn btn-info">Saber Más</a>
+                    <a href="#" class="btn btn-success">Comprar Ticket</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4c3IdUFnS8qd3qrMol1b3Rq5MqF.jpg" class="img-fluid" alt="Romper el círculo">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3">
+                <h5>Romper el círculo</h5>
+                <p>Duración: 130 min</p>
+                <div class="button-container">
+                    <a href="https://youtu.be/aT_IzP2eJaU?si=GRbSEzHhVpvT91Rf" class="btn btn-primary">Ver Trailer</a>
+                    <a href="#" class="btn btn-info">Saber Más</a>
+                    <a href="#" class="btn btn-success">Comprar Ticket</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9TFSqghEHrlBMRR63yTx80Orxva.jpg" class="d-block w-100" alt="Deadpool y Wolverine">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3">
+                <h5>Deadpool y Wolverine</h5>
+                <p>Duración: 127 min </p>
+                <a href="https://youtu.be/kxyyKU8rgaU?si=4SVvClEDnp358iMS" class="btn btn-primary">Ver Trailer</a>
+                <a href="#" class="btn btn-info">Saber Más</a>
+                <a href="#" class="btn btn-success">Comprar Ticket</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/kqph8UWNOoYgTjYnkAx8dRlLLCq.jpg" class="d-block w-100" alt="Mi villano favorito 4">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3">
+                <h5>Mi villano favorito 4</h5>
+                <p>Duración: 94 min </p>
+                <a href="https://youtu.be/_H2_qY9oILY?si=II-UPehtNR3ZKDem" class="btn btn-primary">Ver Trailer</a>
+                <a href="#" class="btn btn-info">Saber Más</a>
+                <a href="#" class="btn btn-success">Comprar Ticket</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/6eHcR7zwvNSvkOl9jbctU0lvZQ1.jpg" class="d-block w-100" alt="Wonka">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3">
+                <h5>Wonka </h5>
+                <p>Duración: 100 min </p>
+                <a href="https://youtu.be/-YRw-3dgsjo?si=H8VlYKnem_Gpo47b" class="btn btn-primary">Ver Trailer</a>
+                <a href="#" class="btn btn-info">Saber Más</a>
+                <a href="#" class="btn btn-success">Comprar Ticket</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/eaiUgabhNozGGmBb1wlUybWoBoQ.jpg" class="d-block w-100" alt="Los Juegos del Hambre: Balada de pájaros cantores y serpientes">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3">
+                <h5>Los Juegos del Hambre: Balada de pájaros cantores y serpientes </h5>
+                <p>Duración: 130 min </p>
+                <a href="https://youtu.be/IWjAy4lIyoY?si=I9C5OY6xrUK9jjfB" class="btn btn-primary">Ver Trailer</a>
+                <a href="#" class="btn btn-info">Saber Más</a>
+                <a href="#" class="btn btn-success">Comprar Ticket</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/saGpA6u71TPA8DyTYoAqSBGVZW.jpg" class="d-block w-100" alt="Trolls 3: Se armó la banda">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3">
+                <h5>Trolls 3: Se armó la banda</h5>
+                <p>Duración: 100 min </p>
+                <a href="https://youtu.be/teNZQRs5MLI?si=8oVz-FthuJOdku3H" class="btn btn-primary">Ver Trailer</a>
+                <a href="#" class="btn btn-info">Saber Más</a>
+                <a href="#" class="btn btn-success">Comprar Ticket</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/9LY3P2mW82mq9qP0r3ltvhLgRkA.jpg" class="d-block w-100" alt="Nefarious">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3">
+                <h5>Nefarious </h5>
+                <p>Duración: 97 min </p>
+                <a href="https://youtu.be/6bHWbISd2us?si=9yFVwgVxgmb_4JAv" class="btn btn-primary">Ver Trailer</a>
+                <a href="#" class="btn btn-info">Saber Más</a>
+                <a href="#" class="btn btn-success">Comprar Ticket</a>
+            </div>
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#peliculasCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#peliculasCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
